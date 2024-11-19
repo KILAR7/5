@@ -1,9 +1,9 @@
 wait(0.3)
 -- Objects
 -- CREDIT TO xFunnieuss / Timeless for partial (short) names.
--- OPFinality FE Gui by illremember
+-- KILAR_SCRIPT FE Gui by illremember
 
-OPFinality = Instance.new("ScreenGui")
+KILAR_SCRIPT = Instance.new("ScreenGui")
 MainFrame = Instance.new("Frame")
 TopFrame = Instance.new("Frame")
 CloseGUI = Instance.new("TextButton")
@@ -14,7 +14,7 @@ Pages = Instance.new("Frame")
 Information = Instance.new("Frame")
 Image_FE_ENABLED = Instance.new("ImageLabel")
 Text_FE_ENABLED = Instance.new("TextLabel")
-WhatIsOPFinality = Instance.new("TextLabel")
+WhatIsKILAR_SCRIPT = Instance.new("TextLabel")
 Text_FE_DISABLED = Instance.new("TextLabel")
 OPFin_Description = Instance.new("TextLabel")
 OPFin_Warning = Instance.new("TextLabel")
@@ -188,11 +188,11 @@ Darkness = Instance.new("TextButton")
 
 -- Properties
 
-OPFinality.Name = "OPFinality"
-OPFinality.Parent = game.CoreGui
+KILAR_SCRIPT.Name = "KILAR_SCRIPT"
+KILAR_SCRIPT.Parent = game.CoreGui
 
 MainFrame.Name = "MainFrame"
-MainFrame.Parent = OPFinality
+MainFrame.Parent = KILAR_SCRIPT
 MainFrame.Active = true
 MainFrame.BackgroundColor3 = Color3.new(1, 1, 1)
 MainFrame.BackgroundTransparency = 1
@@ -239,7 +239,7 @@ Title.Position = UDim2.new(0.341463417, 0, 0, 0)
 Title.Size = UDim2.new(0.292682916, 0, 1.00166667, 0)
 Title.Font = Enum.Font.SourceSansLight
 Title.FontSize = Enum.FontSize.Size32
-Title.Text = "OPFinality"
+Title.Text = "KILAR_SCRIPT"
 Title.TextColor3 = Color3.new(0.933333, 0.933333, 0.933333)
 Title.TextSize = 30
 Title.ZIndex = 6
@@ -283,19 +283,19 @@ Text_FE_ENABLED.Size = UDim2.new(0.795348704, 0, 0.227404833, 0)
 Text_FE_ENABLED.Visible = false
 Text_FE_ENABLED.Font = Enum.Font.SourceSansItalic
 Text_FE_ENABLED.FontSize = Enum.FontSize.Size24
-Text_FE_ENABLED.Text = "This game is Filtering Enabled! Enjoy using OPFinality."
+Text_FE_ENABLED.Text = "This game is Filtering Enabled! Enjoy using KILAR_SCRIPT."
 Text_FE_ENABLED.TextSize = 19
 
-WhatIsOPFinality.Name = "WhatIsOPFinality"
-WhatIsOPFinality.Parent = Information
-WhatIsOPFinality.BackgroundColor3 = Color3.new(1, 1, 1)
-WhatIsOPFinality.BackgroundTransparency = 1
-WhatIsOPFinality.Position = UDim2.new(0.249966726, 0, 0.227404833, 0)
-WhatIsOPFinality.Size = UDim2.new(0.522657692, 0, 0.1364429, 0)
-WhatIsOPFinality.Font = Enum.Font.SourceSansBold
-WhatIsOPFinality.FontSize = Enum.FontSize.Size28
-WhatIsOPFinality.Text = "What is OPFinality?"
-WhatIsOPFinality.TextSize = 25
+WhatIsKILAR_SCRIPT.Name = "WhatIsKILAR_SCRIPT"
+WhatIsKILAR_SCRIPT.Parent = Information
+WhatIsKILAR_SCRIPT.BackgroundColor3 = Color3.new(1, 1, 1)
+WhatIsKILAR_SCRIPT.BackgroundTransparency = 1
+WhatIsKILAR_SCRIPT.Position = UDim2.new(0.249966726, 0, 0.227404833, 0)
+WhatIsKILAR_SCRIPT.Size = UDim2.new(0.522657692, 0, 0.1364429, 0)
+WhatIsKILAR_SCRIPT.Font = Enum.Font.SourceSansBold
+WhatIsKILAR_SCRIPT.FontSize = Enum.FontSize.Size28
+WhatIsKILAR_SCRIPT.Text = "What is KILAR_SCRIPT?"
+WhatIsKILAR_SCRIPT.TextSize = 25
 
 Text_FE_DISABLED.Name = "Text_FE_DISABLED"
 Text_FE_DISABLED.Parent = Information
@@ -317,7 +317,7 @@ OPFin_Description.Size = UDim2.new(0.772624433, 0, 0.181923851, 0)
 OPFin_Description.ZIndex = 3
 OPFin_Description.Font = Enum.Font.SourceSans
 OPFin_Description.FontSize = Enum.FontSize.Size18
-OPFin_Description.Text = "OPFinality is an FE GUI developed by illremember made for giving you power in Filtering Enabled games."
+OPFin_Description.Text = "KILAR_SCRIPT is an FE GUI developed by illremember made for giving you power in Filtering Enabled games."
 OPFin_Description.TextColor3 = Color3.new(0.92549, 0.941177, 0.945098)
 OPFin_Description.TextSize = 18
 OPFin_Description.TextWrapped = true
@@ -2226,7 +2226,7 @@ CloseGUI.MouseButton1Click:connect(function()
 end)
 
 DeleteGUI.MouseButton1Click:connect(function()
-	game.CoreGui.OPFinality:Destroy()
+	game.CoreGui.KILAR_SCRIPT:Destroy()
 end)
 
 T_Character.MouseButton1Click:connect(function()
